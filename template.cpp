@@ -47,7 +47,7 @@
 #define eli else if
 
 #define nl printf("\n")
-#define tab printf("\t
+#define tab printf("\t")
 #define space printf(" ")
 
 #define MOD              1000000007
