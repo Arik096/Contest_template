@@ -42,14 +42,14 @@ typedef pair<int, int> pii;
 #define cabcde               cin>>a>>b>>c>>d>>e
 #define loop0                  for(ll i=0;i<t;i++)
 #define loop1                  for(ll i=1;i<=t;i++)
-#define loop1(j,n)           for(ll j=0;j<n;j++)
-#define loop2(k,n)          for(ll k=0;k<n;k++)
+#define loop21(j,n)           for(ll j=0;j<n;j++)
+#define loop22(k,n)          for(ll k=0;k<n;k++)
 
 #define sf1ll(a)                 scanf("%I64d", &a)
 #define sf2ll(a,b)              scanf("%I64d %I64d", &a, &b)
 #define sf3ll(a,b,c)           scanf("%I64d %I64d %I64d", &a, &b, &c)
 #define sf4ll(a,b,c,d)       scanf("%I64d %I64d %I64d %I64d", &a, &b, &c, &d)
-#define sf4ll(a,b,c,d,e)    scanf("%I64d %I64d %I64d %I64d %I64d", &a, &b, &c, &d,&e)
+#define sf5ll(a,b,c,d,e)    scanf("%I64d %I64d %I64d %I64d %I64d", &a, &b, &c, &d,&e)
 
 #define READ                  freopen("input.txt", "r", stdin);
 #define WRITE                 freopen("output.txt", "w", stdout);
@@ -483,8 +483,9 @@ const int dyhorse[] = {1,  -1, 2 , -2, 2,-2, 1,-1};
 
 int main()
 {
-          string s="BAIUST_Executioners_71";
-          cout<<s;
-          newline;
-          zero;
+    freopen("input.txt", "r", stdin);
+    string s="BAIUST_Executioners_71";
+    cout<<s;
+    newline;
+    zero;
 }
